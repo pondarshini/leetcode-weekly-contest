@@ -13,7 +13,7 @@ Input:`nums = [1,1,2,2,3,4]`
 </br>
 Output: true
 </br>
-Explanation: One of the possible ways to split nums is nums1 = [1,2,3] and nums2 = [1,2,4].
+Explanation: One of the possible ways to split nums is `nums1 = [1,2,3]` and `nums2 = [1,2,4]`.
 </br>
 Input:`nums = [1,1,1,1]`
 </br>
