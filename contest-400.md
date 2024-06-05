@@ -42,29 +42,6 @@ Second	Event	People in the Waiting Room	Available Chairs
 | 6	| Leave	| 1	| 1 |
 
 
-
-Example 3:
-</br>
-Input: s = "ELEELEELLL"
-</br>
-Output: 3
-</br>
-Explanation:
-</br>
-Let's consider that there are 3 chairs in the waiting room. The table below shows the state of the waiting room at each second.
-Second	Event	People in the Waiting Room	Available Chairs
-</br>
-0	Enter	1	2
-1	Leave	0	3
-2	Enter	1	2
-3	Enter	2	1
-4	Leave	1	2
-5	Enter	2	1
-6	Enter	3	0
-7	Leave	2	1
-8	Leave	1	2
-9	Leave	0	3
-
 ```java
 class Solution {
     public int minimumChairs(String s) {
