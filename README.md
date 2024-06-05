@@ -11,6 +11,7 @@ Return true if it is possible to split the array, and false otherwise.
 
 Input: nums = [1,1,2,2,3,4]
 Output: true
+</br>
 Explanation: One of the possible ways to split nums is nums1 = [1,2,3] and nums2 = [1,2,4].
 Input: nums = [1,1,1,1]
 Output: false
