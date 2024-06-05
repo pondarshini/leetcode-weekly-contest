@@ -18,6 +18,7 @@ The strictly decreasing subarrays of nums are [1], [2], [3], [3], [4], [3,2], an
 </br>
 Hence, we return 2.
 </br>
+
 Example 2:
 </br>
 Input:`nums = [3,3,3,3]`
@@ -32,6 +33,7 @@ The strictly decreasing subarrays of nums are [3], [3], [3], and [3].
 </br>
 Hence, we return 1.
 </br>
+
 Example 3:
 </br>
 Input:`nums = [3,2,1]`
