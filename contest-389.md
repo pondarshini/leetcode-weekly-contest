@@ -1,24 +1,26 @@
-//Existence of a Substring in a String and Its Reverse --EASY
+## CONTEST-389
 
+### Existence of a Substring in a String and Its Reverse --EASY
 Given a string s, find any substring of length 2 which is also present in the reverse of s.
 Return true if such a substring exists, and false otherwise.
-
+</br>
 Example 1:
-
+</br>
 Input: s = "leetcode"
-
+</br>
 Output: true
-
+</br>
 Explanation: Substring "ee" is of length 2 which is also present in reverse(s) == "edocteel".
-
+</br>
 Example 2:
-
+</br>
 Input: s = "abcba"
-
+</br>
 Output: true
-
+</br>
 Explanation: All of the substrings of length 2 "ab", "bc", "cb", "ba" are also present in reverse(s) == "abcba".
-
+</br> 
+```java
 class Solution {
     public boolean isSubstringPresent(String s) {
          for (int i = 0; i < s.length() - 1; i++) {
@@ -31,8 +33,10 @@ class Solution {
         
     }
 }
+```
+---
 
-//Count Substrings Starting and Ending with Given Character  --MEDIUM
+Count Substrings Starting and Ending with Given Character  --MEDIUM
 
 You are given a string s and a character c. Return the total number of substrings of s that start and end with c.
 Example 1:
