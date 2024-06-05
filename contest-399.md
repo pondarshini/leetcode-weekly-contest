@@ -56,23 +56,36 @@ Begin with an empty string comp. While word is not empty, use the following oper
 </ul>
 </li>
 Return the string comp.
+</br>
 
 Example 1:
+</br>
 Input: word = "abcde"
+</br>
 Output: "1a1b1c1d1e"
+</br>
 Explanation:
 Initially, comp = "". Apply the operation 5 times, choosing "a", "b", "c", "d", and "e" as the prefix in each operation.
 For each prefix, append "1" followed by the character to comp.
+</br>
 
 Example 2:
+</br>
 Input: word = "aaaaaaaaaaaaaabb"
+</br>
 Output: "9a5a2b"
+</br>
 Explanation:
+</br>
 Initially, comp = "". Apply the operation 3 times, choosing "aaaaaaaaa", "aaaaa", and "bb" as the prefix in each operation.
+</br>
 For prefix "aaaaaaaaa", append "9" followed by "a" to comp.
+</br>
 For prefix "aaaaa", append "5" followed by "a" to comp.
+</br>
 For prefix "bb", append "2" followed by "b" to comp
 
+```java
 class Solution {
     public String compressedString(String word) {
          if (word == null || word.isEmpty()) {
@@ -90,7 +103,7 @@ class Solution {
             
             xyz.append(c).append(abc);
         }
-        
+```        
         return xyz.toString();
 
         
