@@ -36,21 +36,27 @@ class Solution {
 ```
 ---
 
-Count Substrings Starting and Ending with Given Character  --MEDIUM
-
+### Count Substrings Starting and Ending with Given Character  --MEDIUM
 You are given a string s and a character c. Return the total number of substrings of s that start and end with c.
+</br>
 Example 1:
-
+</br>
 Input: s = "abada", c = "a"
+</br>
 Output: 6
+</br>
 Explanation: Substrings starting and ending with "a" are: "abada", "abada", "abada", "abada", "abada", "abada".
-
+</br>
 Example 2:
+</br>
 Input: s = "zzz", c = "z"
+</br>
 Output: 6
+</br>
 Explanation: There are a total of 6 substrings in s and all start and end with "z".
 
-BRUTE FORCE SOLUTION
+#### BRUTE FORCE SOLUTION
+```java
 public class Solution {
     public int countSubstrings(String s, char c) {
         int count = 0;
@@ -66,8 +72,10 @@ public class Solution {
         return count;
     }
 }
+```
 
-OPTIMAL SOLUTION
+#### OPTIMAL SOLUTION
+```java
 class Solution {
     public long countSubstrings(String s, char c) {
         long count = 0;
@@ -83,3 +91,4 @@ class Solution {
         
     }
 }
+```
