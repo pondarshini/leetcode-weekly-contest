@@ -9,17 +9,17 @@ You are given an integer array nums of even length. You have to split the array 
 
 Return true if it is possible to split the array, and false otherwise.
 
-Input: nums = [1,1,2,2,3,4]
+Input:`nums = [1,1,2,2,3,4]`
 </br>
 Output: true
 </br>
 Explanation: One of the possible ways to split nums is nums1 = [1,2,3] and nums2 = [1,2,4].
 </br>
-Input: nums = [1,1,1,1]
+Input:`nums = [1,1,1,1]`
 </br>
 Output: false
 </br>
-Explanation: The only possible way to split nums is nums1 = [1,1] and nums2 = [1,1]. Both nums1 and nums2 do not contain distinct elements.
+Explanation: The only possible way to split nums is `nums1 = [1,1]` and `nums2 = [1,1]`. Both nums1 and nums2 do not contain distinct elements.
 
 ```java
 public class SplitPossible {
