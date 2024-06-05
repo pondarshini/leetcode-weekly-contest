@@ -1,5 +1,3 @@
-# leetcode-weekly-contest
-
 ## CONTEST-386
 
 ### Split the array -- Easy
