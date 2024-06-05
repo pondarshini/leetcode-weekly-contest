@@ -30,13 +30,14 @@ Explanation:
 Let's consider that there are 2 chairs in the waiting room. The table below shows the state of the waiting room at each second.
 Second	Event	People in the Waiting Room	Available Chairs
 </br>
-0	Enter	1	1
-1	Leave	0	2
-2	Enter	1	1
-3	Leave	0	2
-4	Enter	1	1
-5	Enter	2	0
-6	Leave	1	1
+
+| 0 | Enter	| 1 | 1 |
+| 1	| Leave	| 0	| 2 |
+| 2 | Enter	| 1 | 1 |
+| 3 | Leave	| 0	| 2 |
+| 4 | Enter | 1	| 1 |
+| 5	| Enter	| 2	| 0 |
+| 6	| Leave	| 1	| 1 |
 </br>
 
 Example 3:
