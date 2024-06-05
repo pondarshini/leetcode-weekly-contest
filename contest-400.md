@@ -31,6 +31,8 @@ Let's consider that there are 2 chairs in the waiting room. The table below show
 Second	Event	People in the Waiting Room	Available Chairs
 </br>
 
+| v | E/L   | u | s |
+| -- | ---- | -- | -- |
 | 0 | Enter	| 1 | 1 |
 | 1	| Leave	| 0	| 2 |
 | 2 | Enter	| 1 | 1 |
@@ -39,10 +41,7 @@ Second	Event	People in the Waiting Room	Available Chairs
 | 5	| Enter	| 2	| 0 |
 | 6	| Leave	| 1	| 1 |
 
-| Month    | Savings |
-| January  | $250    |
-| February | $80     |
-| March    | $420    |
+
 
 Example 3:
 </br>
