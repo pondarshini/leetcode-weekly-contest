@@ -50,6 +50,7 @@ Return the number of alternating subarrays in nums.
 Example 1:
 </br>
 Input:`nums = [0,1,1,1]`
+</br>
 Output: 5
 </br>
 Explanation:
