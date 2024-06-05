@@ -33,11 +33,14 @@ Output:`[5,3,4,8]`
 </br>
 Explanation: After the first 2 operations, arr1 = [5] and arr2 = [4].
 In the 3rd operation, as the last element of arr1 is greater than the last element of arr2 (5 > 4), append nums[3] to arr1, hence arr1 becomes [5,3].
+</br>
 In the 4th operation, as the last element of arr2 is greater than the last element of arr1 (4 > 3), append nums[4] to arr2, hence arr2 becomes [4,8].
+</br>
 After 4 operations, arr1 = [5,3] and arr2 = [4,8].
 Hence, the array result formed by concatenation is [5,3,4,8]
 
-// CODE
+</br>
+```java
 class Solution {
     public int[] resultArray(int[] nums) {
         ArrayList<Integer> arr1 = new ArrayList<>();
@@ -61,3 +64,4 @@ class Solution {
         return result;
 }
 }
+```
