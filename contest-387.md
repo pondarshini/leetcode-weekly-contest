@@ -16,10 +16,8 @@ Return the array result.
 
 Example 1:
 </br>
-
 Input:`nums = [2,1,3]`
 </br>
-
 Output:`[2,3,1]`
 </br>
 Explanation: After the first 2 operations, `arr1 = [2]` and `arr2 = [1]`.
