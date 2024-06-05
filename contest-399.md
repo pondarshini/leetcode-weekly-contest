@@ -1,21 +1,31 @@
-Find the Number of Good Pairs I    -- EASY
+## CONTEST-399
+
+## Find the Number of Good Pairs I    -- EASY
 
 You are given 2 integer arrays nums1 and nums2 of lengths n and m respectively. You are also given a positive integer k.
 A pair (i, j) is called good if nums1[i] is divisible by nums2[j] * k (0 <= i <= n - 1, 0 <= j <= m - 1).
 Return the total number of good pairs.
-
+</br>
 Example 1:
-Input: nums1 = [1,3,4], nums2 = [1,3,4], k = 1
+</br>
+Input: `nums1 = [1,3,4]`, `nums2 = [1,3,4]`, k = 1
+</br>
 Output: 5
+</br>
 Explanation:
 The 5 good pairs are (0, 0), (1, 0), (1, 1), (2, 0), and (2, 2).
+</br>
 
 Example 2:
-Input: nums1 = [1,2,4,12], nums2 = [2,4], k = 3
+</br>
+Input: `nums1 = [1,2,4,12]` , `nums2 = [2,4]` , k = 3
+</br>
 Output: 2
+</br>
 Explanation:
 The 2 good pairs are (3, 0) and (3, 1)
 
+```java
 class Solution {
     public int numberOfPairs(int[] nums1, int[] nums2, int k) {
         int c=0;
@@ -31,15 +41,18 @@ class Solution {
         
     }
 }
+```
+---
 
-
-String compression III  --MEDIUM
+### String compression III  --MEDIUM
 
 Given a string word, compress it using the following algorithm:
 Begin with an empty string comp. While word is not empty, use the following operation:
 <ul>
-	<li>Remove a maximum length prefix of <code>word</code> made of a <em>single character</em> <code>c</code> repeating <strong>at most</strong> 9 times.</li>
-	<li>Append the length of the prefix followed by <code>c</code> to <code>comp</code>.</li>
+</br>
+<li>Remove a maximum length prefix of <code>word</code> made of a <em>single character</em> <code>c</code> repeating <strong>at most</strong> 9 times.</li>
+</br>
+<li>Append the length of the prefix followed by <code>c</code> to <code>comp</code>.</li>
 </ul>
 </li>
 Return the string comp.
