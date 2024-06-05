@@ -10,7 +10,8 @@ Afterwards, in the ith operation:
 -  Otherwise, append nums[i] to arr2.
 
 The array result is formed by concatenating the arrays arr1 and arr2. 
-For example, if arr1 == [1,2,3] and arr2 == [4,5,6], then result = [1,2,3,4,5,6].
+For example, if `arr1 == [1,2,3]` and `arr2 == [4,5,6]` 
+then `result = [1,2,3,4,5,6]`.
 Return the array result.
 
 Example 1:
