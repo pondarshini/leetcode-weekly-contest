@@ -38,7 +38,12 @@ Second	Event	People in the Waiting Room	Available Chairs
 | 4 | Enter | 1	| 1 |
 | 5	| Enter	| 2	| 0 |
 | 6	| Leave	| 1	| 1 |
-</br>
+
+| Month    | Savings |
+| -------- | ------- |
+| January  | $250    |
+| February | $80     |
+| March    | $420    |
 
 Example 3:
 </br>
