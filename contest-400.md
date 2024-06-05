@@ -40,7 +40,6 @@ Second	Event	People in the Waiting Room	Available Chairs
 | 6	| Leave	| 1	| 1 |
 
 | Month    | Savings |
-| -------- | ------- |
 | January  | $250    |
 | February | $80     |
 | March    | $420    |
