@@ -40,6 +40,7 @@ After 4 operations, arr1 = [5,3] and arr2 = [4,8].
 Hence, the array result formed by concatenation is [5,3,4,8]
 
 </br>
+
 ```java
 class Solution {
     public int[] resultArray(int[] nums) {
