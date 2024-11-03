@@ -21,8 +21,8 @@ Input: num = "24123"
 Output: true
 </br>
 Explanation:
--The sum of digits at even indices is `2 + 1 + 3 == 6`, and the sum of digits at odd indices is `4 + 2 == 6`.
--Since both are equal the num is balanced.
+- The sum of digits at even indices is `2 + 1 + 3 == 6`, and the sum of digits at odd indices is `4 + 2 == 6`.
+- Since both are equal the num is balanced
 </br>
 
 ```java
