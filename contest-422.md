@@ -23,6 +23,7 @@ Explanation:
 - The sum of digits at even indices is `2 + 1 + 3 == 6`, and the sum of digits at odd indices is `4 + 2 == 6`.
 - Since both are equal the num is balanced
 </br>
+
 ```java
 class Solution {
     public boolean isBalanced(String num) {
